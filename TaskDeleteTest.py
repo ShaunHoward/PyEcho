@@ -11,7 +11,7 @@ if echo:
    tasks = echo.tasks()
    print tasks
    for task in tasks:
-      res = echo.deleteTask(task)
+      res = echo.delete_task(task)
       print res
       print res.text
 
